@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-               BuildableName = "DunamisApp.app"
-               BlueprintName = "DunamisApp"
-               ReferencedContainer = "container:DunamisApp.xcodeproj">
+               BuildableName = "finassistapp.app"
+               BlueprintName = "finassistapp"
+               ReferencedContainer = "container:finassistapp.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "DunamisAppTests.xctest"
-               BlueprintName = "DunamisAppTests"
-               ReferencedContainer = "container:DunamisApp.xcodeproj">
+               BuildableName = "finassistappTests.xctest"
+               BlueprintName = "finassistappTests"
+               ReferencedContainer = "container:finassistapp.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "DunamisApp.app"
-            BlueprintName = "DunamisApp"
-            ReferencedContainer = "container:DunamisApp.xcodeproj">
+            BuildableName = "finassistapp.app"
+            BlueprintName = "finassistapp"
+            ReferencedContainer = "container:finassistapp.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "DunamisApp.app"
-            BlueprintName = "DunamisApp"
-            ReferencedContainer = "container:DunamisApp.xcodeproj">
+            BuildableName = "finassistapp.app"
+            BlueprintName = "finassistapp"
+            ReferencedContainer = "container:finassistapp.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

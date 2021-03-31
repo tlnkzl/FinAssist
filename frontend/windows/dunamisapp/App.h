@@ -4,7 +4,7 @@
 
 namespace activation = winrt::Windows::ApplicationModel::Activation;
 
-namespace winrt::dunamisapp::implementation
+namespace winrt::finassistapp::implementation
 {
     struct App : AppT<App>
     {
@@ -16,4 +16,4 @@ namespace winrt::dunamisapp::implementation
       private:
         using super = AppT<App>;
     };
-} // namespace winrt::dunamisapp::implementation
+} // namespace winrt::finassistapp::implementation
