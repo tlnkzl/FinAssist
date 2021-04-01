@@ -8,7 +8,7 @@ and update the API Database connection
      
 
 ## Run the app
-   Open Vistual Studio code and open a new terminal, then run these commands:
-   $ cd FinAssist
-   $ npm install
-   $ ng serve --open
+   Open Vistual Studio code and open a new terminal, then run these commands: <br>
+   $ cd FinAssist <br>
+   $ npm install <br>
+   $ ng serve --open <br>
