@@ -1,0 +1,48 @@
+CREATE TABLE Participant(
+    ParticipantID int PRIMARY KEY IDENTITY (1, 1),
+    Name varchar(50) NOT NULL,
+    Email varchar(50) NOT NULL,
+    Score int NOT NULL,
+    TimeSpent int NOT NULL
+);
+
+CREATE TABLE Question (
+    QnID int PRIMARY KEY IDENTITY (1, 1),
+    Qn varchar(250) NOT NULL,
+    ImageName varchar(50) NOT NULL,
+    Option1 varchar(50) NOT NULL,
+    Option2 varchar(50) NOT NULL,
+    Option3 varchar(50) NOT NULL,
+    Option4 varchar(50) NOT NULL,
+    Answer int NOT NULL
+);
+
+
+
+CREATE TABLE Client (
+    ClientID int PRIMARY KEY,
+    FirstName varchar(20) NOT NULL,
+    LastName varchar(20) NOT NULL,
+    Email varchar(50) NOT NULL,
+    Password varchar(15);
+);
+
+
+ALTER TABLE Client
+ADD Password varchar(15);
+
+ALTER TABLE Client
+ADD PRIMARY KEY (ClientID);
+
+CREATE TABLE Question (
+    QnID int PRIMARY KEY IDENTITY (1, 1),
+    Qn varchar(150) NOT NULL
+);
+
+
+
+INSERT INTO Question(Qn) VALUES ('Have you already moved to Canada?', 'Yes', 'No','','',1);
+INSERT INTO Question(Qn) VALUES ('Have you created your bank account in Canada?', 'Yes', 'No','','',1);
+INSERT INTO Question(Qn) VALUES ('Have registered for an online banking service?', 'Yes', 'No','','',1);
+INSERT INTO Question(Qn) VALUES ('Have you set up the pre-authorized debit payments (PAD) of all bills?', 'Yes', 'No','','',1);
+INSERT INTO Question(Qn) VALUES ('Do you have a credit card(s) in Canada?', 'Yes', 'No','','',1);

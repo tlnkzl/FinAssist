@@ -1,0 +1,98 @@
+label color .input-field label {
+  color: #000;
+}
+/* label focus color */
+.input-field input[type="text"]:focus + label {
+  color: #000;
+}
+/* label underline focus color */
+.input-field input[type="text"]:focus {
+  border-bottom: 1px solid #000;
+  box-shadow: 0 1px 0 0 #000;
+}
+/* valid color */
+.input-field input[type="text"].valid {
+  border-bottom: 1px solid #000;
+  box-shadow: 0 1px 0 0 #000;
+}
+/* invalid color */
+.input-field input[type="text"].invalid {
+  border-bottom: 1px solid #000;
+  box-shadow: 0 1px 0 0 #000;
+}
+/* icon prefix focus color */
+.input-field .prefix.active {
+  color: #000;
+}
+
+button {
+  background-color: darkgray;
+}
+
+h4 {
+  text-align: center;
+}
+/***********************************/
+
+paragraph {
+  margin: 24;
+  margin-top: 0;
+  font-size: 14;
+  font-weight: "bold";
+  text-align: "center";
+}
+
+.input-field input[type="text"] {
+  width: 350;
+  height: 55;
+  background-color: "#657c94";
+  margin: 10;
+  padding: 8;
+  color: "white";
+  border-radius: 20;
+  font-size: 18;
+  font-weight: "500";
+}
+
+img {
+  height: 60;
+  width: 60;
+}
+
+#btnID {
+  margin: 10;
+  border-radius: 20;
+  align-items: "center";
+  background-color: "#37bec9";
+}
+
+#FirstName,
+#LastName,
+#Email,
+#Password {
+  font-size: 18;
+  color: "#fff";
+  font-weight: "bold";
+  align-self: "center";
+  text-transform: "uppercase";
+}
+
+.card {
+  background-image: url("../../assets/img/register.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+label {
+  color: wheat;
+  font-size: medium;
+}
+
+h4 {
+  text-align: center;
+  color: wheat;
+}
+
+img {
+  align-items: left;
+}
