@@ -7,6 +7,9 @@ import Splash from './component/Splash';
 import ViewPager from './component/ViewPager';
 import Login from './component/Login';
 import SignUp from './component/SignUp';
+import Home from './component/Home';
+import Account from './component/Account';
+import Profile from './component/Profile';
 
 import Quiz from './component/quiz/Quiz';
 import Q2 from './component/quiz/Q2';
@@ -15,6 +18,7 @@ import Q3 from './component/quiz/Q3';
 import Q4 from './component/quiz/Q4';
 import Q5 from './component/quiz/Q5';
 import Congrats from './component/quiz/congrats';
+import ManagementTools from './component/ManagementTools'
 
 
 const Stack = createStackNavigator();
@@ -29,9 +33,15 @@ function App() {
         <Stack.Screen name="ViewPager" component={ViewPager} />
 
         <Stack.Screen name="MainView" component={MainView} options={{}} />
+        <Stack.Screen name="ManagementTools" component={ManagementTools} options={{}} />
+
 
         <Stack.Screen name="Login" component={Login} options={{}} />
         <Stack.Screen name="SignUp" component={SignUp} options={{}} />
+        
+        <Stack.Screen name="Home" component={Home} options={{}} />
+        <Stack.Screen name="Account" component={Account} options={{}} />
+        <Stack.Screen name="Profile" component={Profile} options={{}} />
 
         <Stack.Screen name="Quiz" component={Quiz} options={{}} />
         <Stack.Screen name="Q2" component={Q2} options={{}} />
